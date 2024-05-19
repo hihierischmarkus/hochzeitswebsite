@@ -7,7 +7,6 @@ export const CountDown = () => {
     const marriageDate = new Date(2025, 0, 25);
     const theme = useTheme();
     const fontType = useMediaQuery(theme.breakpoints.down('sm')) ? 'h4' : 'h2';
-    console.log(fontType);
 
         const content = ({ days, hours, minutes, seconds }) =>
         <Grid container rowSpacing={1} columnSpacing={{xs: 1.5}} sx={{color:'white'}}>

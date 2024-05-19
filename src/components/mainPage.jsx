@@ -25,7 +25,7 @@ export const MainPage = () => {
                             <Typography variant={isMobile ? 'h4' : 'h2'} sx={{letterSpacing: '0.1rem', fontWeight:300, mt:5, px:3}} align='center'>Hochzeit von Vivien & Markus</Typography>
                             <Box display='flex' flexDirection='column' alignItems='center' mt={3} justifyContent={'end'}>                                
                                 <CountDown/>
-                                <Typography sx={{letterSpacing: '0.1rem', fontWeight:300, mb:6, pt:8, px:3, fontSize:isMobile ? 16 : 20}} align='center' >Am 25.05.2025 ist es endlich soweit. Wir laden euch recht herzlich zu unserer Hochzeit ein. Weitere Infos folgen bald</Typography>
+                                <Typography sx={{letterSpacing: '0.1rem', fontWeight:300, mb:12, pt:8, px:3, fontSize:isMobile ? 16 : 20}} align='center' >Am 25.01.2025 ist es endlich soweit. Wir laden euch recht herzlich zu unserer Hochzeit ein. Weitere Infos folgen bald</Typography>
                             </Box>
                         </Box>
             </Box>
